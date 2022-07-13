@@ -5,3 +5,6 @@ api-version: 1.18
 authors: [ XieXiLin ]
 description: A plugin to put you hand items to head
 website: https://www.xiexilin.top
+commands:
+  hat:
+    description: 将你手上的物品戴在头上
