@@ -1,0 +1,7 @@
+name: Hat
+version: '${version}'
+main: cn.xiexilin.top.hat.hat.Main
+api-version: 1.18
+authors: [ XieXiLin ]
+description: A plugin to put you hand items to head
+website: https://www.xiexilin.top
