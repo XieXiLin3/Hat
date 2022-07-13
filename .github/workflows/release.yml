@@ -1,4 +1,4 @@
-name: Gradle Package
+name: Release Plugins
 
 on:
   release:
