@@ -16,15 +16,11 @@ public class HatCommand implements CommandExecutor {
         }
         Player p=(Player)sender;
         ItemStack item= p.getInventory().getItemInMainHand();
-        if (item == null || item.getType().isAir()) {
-            sender.sendMessage(ChatColor.RED + "你手上是空气哦 :(");
-            return true;
-        }
         ItemStack helmetitem= p.getInventory().getHelmet();
         p.getInventory().setHelmet(item);
         p.getInventory().removeItem(item);
         p.getInventory().setItemInMainHand(helmetitem);
-        p.sendMessage(ChatColor.GREEN + "已成功设置您的帽子为" + item.getItemMeta().getDisplayName());
+        p.sendMessage(ChatColor.GREEN + "已成功设置您的帽子");
         return false;
     }
 }
